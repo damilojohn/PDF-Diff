@@ -1,0 +1,15 @@
+[project]
+name = "lakes-pdf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pdfplumber>=0.11.9",
+]
+
+[tool.setuptools]
+py-modules = ["pdf_diff"]
+
+[project.scripts]
+pdf-diff = "pdf_diff:main"
