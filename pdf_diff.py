@@ -38,7 +38,7 @@ def compare_pages(
         else:
             identical += 1
 
-    added = list(range(shared + 1, len_b + 1))    # pages only in B
+    added = list(range(shared + 1, len_b + 1))  # pages only in B
     removed = list(range(shared + 1, len_a + 1))  # pages only in A
 
     return {

@@ -1,7 +1,7 @@
 [project]
 name = "lakes-pdf"
 version = "0.1.0"
-description = "Add your description here"
+description = "A CLI tool for finding duplicate pdfs"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -12,4 +12,4 @@ dependencies = [
 py-modules = ["pdf_diff"]
 
 [project.scripts]
-pdf-diff = "pdf_diff:main"
+pdf-diff = "cli:main"
