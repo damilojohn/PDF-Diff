@@ -18,7 +18,7 @@ class TextDiff(DiffStrategy):
                                                        pages_b[i]).ratio()
 
             if similarity_ratio < threshold:
-                different.append(i + 1, similarity_ratio)
+                different.append((i + 1, similarity_ratio))
             else:
                 identical += 1
 

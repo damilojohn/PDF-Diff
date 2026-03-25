@@ -157,7 +157,7 @@ wheels = [
 ]
 
 [[package]]
-name = "lakes-pdf"
+name = "pdf-diff"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
