@@ -28,6 +28,13 @@ Both scripts will automatically install [uv](https://docs.astral.sh/uv/) (a Pyth
 
 ---
 
+if you have uv installed
+
+simply run
+```
+uv tool install https://github.com/damilojohn/PDF-Diff.git
+```
+
 ## Usage
 
 ```

@@ -12,7 +12,6 @@ def main():
         prog="pdf-diff",
         description="Compare two PDF files page by page and report differences.",
     )
-    print("Oh oh changes made...")
     parser.add_argument("pdf_a", type=Path, help="First (original) PDF")
     parser.add_argument("pdf_b", type=Path, help="Second (modified) PDF")
     parser.add_argument(
