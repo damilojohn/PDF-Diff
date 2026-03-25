@@ -1,15 +1,15 @@
 [project]
-name = "lakes-pdf"
+name = "PDF-Diff"
 version = "0.1.0"
-description = "A CLI tool for finding duplicate pdfs"
+description = "A CLI tool for finding duplicate pdfs using text-only SequenceMatching, Perceptual Hashing and Hybrid systems"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "pdfplumber>=0.11.9",
 ]
 
-[tool.setuptools]
-py-modules = ["pdf_diff"]
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [project.scripts]
-pdf-diff = "cli:main"
+pdf-diff = "pdf_diff.cli:main"
